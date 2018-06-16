@@ -76,10 +76,35 @@ h1,h2,h3{
 }
 
 .productAboutText{
-    width:649px;
+    width:655px;
     max-height:inherit;
+    padding-left:50px;
+    padding-top: 44px;
 }
 
 .productAbout h2{
     font-size: 30px;
+    padding-bottom:7px;
+}
+
+.productAboutText p{
+    line-height: 24px;
+}
+
+.productAboutText p:last-child{
+    margin-top: -4px;
+}
+
+.productPluses{
+    width:1280px;
+    height:calc(762px-323px);
+}
+
+.productPlusesHeading{
+    margin:0 auto;
+}
+
+.productPlusesList li{
+    float:left;
+    width:526px;
 }
