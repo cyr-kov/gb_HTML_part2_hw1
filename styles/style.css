@@ -16,8 +16,16 @@ h2{
     font-size: 30px;
 }
 
-section{
-    width:10280px;
+h3{
+    font-size: 24px;
+}
+
+p{
+    color: #363636;
+}
+
+section,header{
+    width:1280px;
     font-family: "Arial",sans-serif;
     font-style: normal;
     font-stretch: normal;
@@ -98,7 +106,7 @@ section{
 }
 
 .productPluses{
-    height:418px;
+    height:373px;
     padding-top: 45px;
     background-color: #f4f4f4;
 }
@@ -144,7 +152,7 @@ section{
 
 .screenShots{
     height: 487px;
-    padding-top:51px;
+    padding-top:47px;
 }
 
 .screenShotsHeading{
@@ -154,23 +162,36 @@ section{
 
 .screenShotsBlock{
     float:left;
-    margin-top:108px;
+    margin-top:28px;
     width:574px;
     height:150px;
+    margin-left:50px;
+}
+
+.screenShotsBlock:nth-child(2n+1){
+    margin-left:16px;
 }
 
 .screenShotsBlockImage{
     height:150px;
     width:200px;
     float:left;
+    background-color: #4a5261;
 }
 .screenShotsBlockText{
-    width:359px;
+    width:360px;
     height:inherit;
     max-height: 150px;
     overflow:hidden;
+    padding-left:14px;
+    margin-top: -6px;
 }
 
 .screenShotsBlockText h3{
-    font-size: 24px;
+    overflow:hidden;
+}
+
+.screenShotsBlockText p{
+    line-height: 1.5;
+    padding-top:9px;
 }
