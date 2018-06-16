@@ -6,22 +6,29 @@ body,html{
     padding:0;
 }
 
-h1,h2,h3{
+h1,h2,h3,p{
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     font-weight: 100;
 }
 
-.productMain {
-    width: 1280px;
-    height: 323px;
-    background-color: #4a5261;
-    color:white;
+h2{
+    font-size: 30px;
+}
+
+section{
+    width:10280px;
     font-family: "Arial",sans-serif;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+}
+
+.productMain {
+    height: 323px;
+    background-color: #4a5261;
+    color:white;
 }
 
 .productMainImg{
@@ -55,15 +62,9 @@ h1,h2,h3{
 }
 
 .productAbout{
-    width: 1280px;
-    height: 323px;
+    height: 344px;
     background-color: white ;
     color:#4a5261;
-    font-family: "Arial",sans-serif;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
 }
 
 .productAboutImg{
@@ -84,11 +85,12 @@ h1,h2,h3{
 
 .productAbout h2{
     font-size: 30px;
-    padding-bottom:7px;
+    padding-bottom:11px;
 }
 
 .productAboutText p{
     line-height: 24px;
+    padding-top:14px;
 }
 
 .productAboutText p:last-child{
@@ -96,15 +98,79 @@ h1,h2,h3{
 }
 
 .productPluses{
-    width:1280px;
-    height:calc(762px-323px);
+    height:418px;
+    padding-top: 45px;
+    background-color: #f4f4f4;
 }
 
 .productPlusesHeading{
-    margin:0 auto;
+    text-align: center;
+
 }
 
-.productPlusesList li{
+.productPlusesList p{
     float:left;
-    width:526px;
+    width:527px;
+    margin-left:42px;
+    line-height: 24px;
+    margin-bottom: 26px;
+
+}
+
+.productPlusesList p:nth-child(2n){
+    margin-left:63px;
+}
+
+.productPlusesWrap{
+    margin-left: 50px;
+    color:#4a5261;
+    font-family: "Arial",sans-serif;
+    padding-top: 23px;
+}
+
+.productPlusesList p::before{
+    content: " ";
+    width: 32px;
+    height: 32px;
+    background-color: #4a5261;
+    display: block;
+    float:left;
+    margin-left: -42px;
+    background-image: url("../images/layer-2.png");
+    background-position: 6px 6px;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.screenShots{
+    height: 487px;
+    padding-top:51px;
+}
+
+.screenShotsHeading{
+    font-size: 30px;
+    text-align: center;
+}
+
+.screenShotsBlock{
+    float:left;
+    margin-top:108px;
+    width:574px;
+    height:150px;
+}
+
+.screenShotsBlockImage{
+    height:150px;
+    width:200px;
+    float:left;
+}
+.screenShotsBlockText{
+    width:359px;
+    height:inherit;
+    max-height: 150px;
+    overflow:hidden;
+}
+
+.screenShotsBlockText h3{
+    font-size: 24px;
 }
